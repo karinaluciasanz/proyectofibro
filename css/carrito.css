@@ -1,0 +1,52 @@
+.btn-cerrar.derecha{
+    text-align: right;
+}
+
+.btn-cerrar.derecha button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.menu-carrito{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+.titulo-carrito{
+    font-size: 18px;
+    padding: 15px 0;
+    border-bottom: 1px solid coral;
+    margin-bottom: 20px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0;
+    border-bottom: 1px solid coral;
+
+}
+
+.item img{
+    width: 50px;
+    padding: 20px;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nombre-item{
+    color: rgb(224, 165, 76);
+}
+.total{
+    margin: 40px 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    display: flex;
+    justify-content: space-between;
+}

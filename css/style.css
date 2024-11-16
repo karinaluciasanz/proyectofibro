@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.menu-prin {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid rgb(255, 255, 255)
+}
+.menu-secun ul{
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+    background: rgb(255, 246, 238);
+}
+.menu-secun li a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 1em 1em;
+    font-size: small;
+}
+.menu-secun ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+.menu-secun li{
+    flex: 0 0 auto;
+    text-align: end;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+    padding: 1em 0em;
+}
+.buscador{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.search-box{
+    width: 200px;
+    height: 25px;
+    padding-left: 15px;
+}
+.search-button{
+    font-size: 20px;
+    position: absolute;
+    right: 5px;
+    border: none;
+    background: none;
+
+}
+.titul{
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+    padding-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-cart{
+    display: flex;
+    align-items: center;
+}
+.login-cart i {
+    margin-left: 30px;
+    font-size: 20px;
+    color: black;
+}
+.btn-carrito {
+    display: flex;
+    margin-left: 30px;
+    font-size: 20px;
+    border: none;
+    background: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.centrado {
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+.menu-section {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid rgb(255, 255, 255)
+}
+
+.menu-simple ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
+    background: peachpuff;
+}
+
+.menu-simple li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1em 1em;
+}
+
+.menu-simple li a:hover{
+    background: darksalmon;
+}
+
+.menu-simple ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.menu-simple li{
+    flex: 1 0 auto;
+    text-align: center;
+}
+

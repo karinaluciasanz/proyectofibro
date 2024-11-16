@@ -1,0 +1,60 @@
+.princi{
+    margin: 0 auto;
+    padding: 0 .8em;
+}
+
+h2 {
+    margin: 0 0 1em;
+    padding: 1em 0;
+    font-weight: 300;
+    color: rgb(252, 237, 216);
+    text-align: center;
+}
+
+.tarjeta a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.tarjeta a:hover{
+    box-shadow: 3px 3px 8px rgb(241, 220, 122);
+}
+.tarjeta-content{
+    padding: 0.5em;
+}
+.tarjeta-content h2{
+    margin-top: 0;
+    margin-bottom: .19em;
+    font-weight: normal;
+}
+.tarjeta-content p{
+    font-size: 95%; /*95em si o si porcentaje*/
+}
+
+figure{
+    margin: 0;
+}
+img{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 3px 8px rosybrown;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tarjeta{
+    background: rgb(228, 168, 144);
+    margin-bottom: 2em;
+    width: 33%;
+}
+
+.required {
+    border: 2px solid rosybrown;
+    background-color: brown;
+}
